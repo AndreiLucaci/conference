@@ -38,13 +38,19 @@ const Introduction: React.FC<IntroductionProps> = ({ name }) => {
             <br />
             <div style={{ textAlign: "center" }}>
               <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLSf077FSpA6V5HGMheyftjRaSE2KuRdw6YotghSIc5KH4lcj6w/viewform?embedded=true"
-                width="640"
-                height="800"
-                frameBorder="0"
-              >
-                Loading…
-              </iframe>
+                id=""
+                allowTransparency={true}
+                allowFullScreen={true}
+                allow="geolocation; microphone; camera"
+                src="https://my.forms.app/form/6161a32ddd6c0533ec15739e"
+                frameBorder={0}
+                style={{
+                  width: "1px",
+                  minWidth: "100%",
+                  height: "800px",
+                  border: "none;",
+                }}
+              ></iframe>
             </div>
             <br />
           </Content>
