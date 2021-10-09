@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-typescript-shards-starter",
+  "name": "conference",
   "private": true,
-  "description": "Kickstarter for Shards, Typescript, React.",
+  "description": "Conferinta Doctrine Seculare",
   "version": "0.1.0",
-  "author": "Williams Sissoko",
+  "author": "Andrei Lucaci",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/react-fontawesome": "^0.1.9",
@@ -45,14 +45,13 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/andreilucaci/conference"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/andreilucaci/conference/issues"
   }
 }

@@ -1,40 +1,40 @@
-'use strict'
+"use strict"
 
 const path = require(`path`)
 
 module.exports = {
   siteMetadata: {
-    title: `Shards Typescript Starter`,
+    title: `Doctrine Seculare`,
     description: ``,
     author: {
-      name: 'Williams Sissoko.'
-    }
+      name: "Andrei Lucaci",
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-plugin-generate-types',
+      resolve: "gatsby-plugin-generate-types",
       options: {
-        inProduction: true
-      }
+        inProduction: true,
+      },
     },
 
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Personal Website`,
+        name: `Doctrine Seculare`,
         display: `minimal-ui`,
         path: `${__dirname}/src/images`,
-        icon: `src/images/logo-gatsby.png`
-      }
+        icon: `src/images/logo-gatsby.png`,
+      },
     },
 
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: path.join(__dirname, `src`, `images`)
-      }
+        path: path.join(__dirname, `src`, `images`),
+      },
     },
 
     {
@@ -43,10 +43,9 @@ module.exports = {
         // Setting a color is optional.
         color: `#E85D75`,
         // Disable the loading spinner.
-        showSpinner: true
-      }
+        showSpinner: true,
+      },
     },
-
 
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
