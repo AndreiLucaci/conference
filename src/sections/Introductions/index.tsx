@@ -19,21 +19,14 @@ const Introduction: React.FC<IntroductionProps> = ({ name }) => {
               style={{ fontSize: "20px", textAlign: "center" }}
               colors={Colors.pink}
             >
-              Conferința BBM!
+              O Întâlnire a tinerilor
             </Text>
             <Title
               className="op1 big-text"
               style={{ marginTop: "2rem", textAlign: "center" }}
               colors={Colors.gray}
             >
-              Doctrine seculare.
-            </Title>
-            <Title
-              className="medium-text"
-              style={{ marginTop: "3rem", marginBottom: "3rem", opacity: 0.7 }}
-              colors={Colors.light_gray}
-            >
-              Multe religii... Câți dumnezei?
+              De ce creștinismul?
             </Title>
             <br />
             <div style={{ textAlign: "center" }}>
