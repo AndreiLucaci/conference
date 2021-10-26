@@ -4,7 +4,7 @@ const path = require(`path`)
 
 module.exports = {
   siteMetadata: {
-    title: `Doctrine Seculare`,
+    title: `De ce creștinismul?`,
     description: ``,
     author: {
       name: "Andrei Lucaci",
@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Doctrine Seculare`,
+        name: `De ce creștinismul?`,
         display: `minimal-ui`,
         path: `${__dirname}/src/images`,
         icon: `src/images/logo-gatsby.png`,

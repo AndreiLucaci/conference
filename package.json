@@ -1,7 +1,7 @@
 {
   "name": "conference",
   "private": true,
-  "description": "Conferinta Doctrine Seculare",
+  "description": "De ce creștinismul",
   "version": "0.1.0",
   "author": "Andrei Lucaci",
   "dependencies": {
